@@ -1,0 +1,79 @@
+@import "../../../assets/styles/styles.scss";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:1rem auto;
+    max-width: 600px;
+    box-shadow: -1px 3px 66px 0px rgba(0,0,0,0.75);
+    padding: 1rem;
+}
+
+table{
+    width: 80%;
+    margin:1rem auto;
+    text-align: center;
+}
+
+.mat-header-cell{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.busqueda{
+    margin-left: 45%;
+    color: white;
+}
+
+.mat-row:nth-child(even){
+     background-color: white; 
+}
+
+.colorWhite{
+    color: white;
+}
+
+.mat-row:nth-child(odd){
+    background-color: #C71D1D;
+}
+
+.mat-cell:first-letter{
+    text-transform: uppercase;
+}
+
+.mat-row:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 0 4px yellow;
+}
+
+::ng-deep.mat-paginator{
+    width: 80%;
+    margin: auto;
+
+}
+
+.mat-form.field{
+    font-size: 13px;
+    width: 20%;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+::ng-deep.mat-form-field-label{
+    color: white !important;
+
+}
+
+::ng-deep.mat-form-field-underline{
+    background-color: white !important;
+}
+
+::ng-deep.mat-form-field-ripple{
+    background-color: white !important;
+}
+
+input{
+    color: white !important;
+}

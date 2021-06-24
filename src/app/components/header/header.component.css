@@ -1,0 +1,6 @@
+@import "../../../assets/styles/styles.scss";
+
+.img:hover{
+    cursor: pointer;
+    
+}

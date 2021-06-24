@@ -1,0 +1,19 @@
+<div id="htmlData">
+    <mat-card class="card">
+        <mat-card-header>
+            <img mat-card-avatar class="header-image" src="{{Img}}">
+            <mat-card-title>{{pokemon.name}}</mat-card-title>
+            <mat-card-subtitle>Nº {{pokemon.id}}</mat-card-subtitle>
+        </mat-card-header>
+    
+        <img mat-card-image src="{{Img}}" alt="pokemon">
+        <mat-card-content>
+            <mat-chip-list>
+                <mat-chip color="primary">   Tipo: {{Type}}</mat-chip>
+                <mat-chip color="primary">  Alto: {{pokemon.height}}</mat-chip>
+                <mat-chip color="primary">  Ancho: {{pokemon.weight}}</mat-chip>
+            </mat-chip-list>
+        </mat-card-content>
+    </mat-card>
+</div>
+<button (click)= "pdf(pokemon.name)">Descargar PDF</button>

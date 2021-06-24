@@ -1,0 +1,37 @@
+.card{
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #C71D1D;
+}
+
+.header-image {
+    background-size: cover;
+}
+
+.mat-card-header{
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.mat-card-title{
+    text-transform: uppercase;
+    color: black;
+}
+
+.mat-card-subtitle{
+    color: black;
+}
+
+button{
+    border:0.16em solid rgba(255,255,255,0);
+    width: 300px;
+    height: 5%;
+    margin-top: 10px;
+    margin-left: 38%;
+    color:#FFFFFF;
+    background-color: black;
+    border-radius:2em;
+    cursor: pointer;
+}
